@@ -91,10 +91,8 @@ class AlphabetRus implements Alphabet {
         ALPHABET.put(66, '\u044F');   //Symbol 'я'
     }
 
-    public final static int ALPHABET_SIZE = ALPHABET.size();
-
     public int getSize() {
-        return ALPHABET_SIZE;
+        return ALPHABET.size();
     }
 
     public boolean contains(Character letter) {
